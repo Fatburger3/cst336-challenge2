@@ -11,10 +11,10 @@
         <h3> Guess two numbers between 1 and 10!</h3>
         <form>
             
-            Actual Number 1: <input type="text" name="number1" hidden/>
-            <br />
-            Actual Number 2: <input type="text" name="number2" hidden/>
-            <br /><br />
+            <input type="text" name="number1" hidden/>
+            <input type="text" name="number2" hidden/>
+            
+            
             Number 1: <input type="text" name="guessnumber1"/>
             <br />
             Number 2: <input type="text" name="guessnumber2" />
