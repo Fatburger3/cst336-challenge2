@@ -1,4 +1,11 @@
+<?php
+if(!isset$_SESSION['randomNumbers']){
+    $_SESSION['randomNumbers'] = array();
+    $_SESSION['randomNumbers'][] = rand(1,10);
+    $_SESSION['randomNumbers'][] = rand(1,10);
+}
 
+?>
 <!DOCTYPE html>
 <html>
     <head>
