@@ -18,10 +18,6 @@ if(!isset$_SESSION['randomNumbers']){
         <h3> Guess two numbers between 1 and 10!</h3>
         <form>
             
-            <input type="text" name="number1" hidden/>
-            <input type="text" name="number2" hidden/>
-            
-            
             Number 1: <input type="text" name="guessnumber1"/>
             <br />
             Number 2: <input type="text" name="guessnumber2" />
